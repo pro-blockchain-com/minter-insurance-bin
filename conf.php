@@ -9,5 +9,6 @@ $nodeUrl = "http://10.0.102.141:8841";
 
 $cache_file = __DIR__."/last_info.txt";
 
+$pip_devider = "1000000000000000000";
 
 ?>

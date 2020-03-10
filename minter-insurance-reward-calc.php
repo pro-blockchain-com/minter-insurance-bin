@@ -6,7 +6,7 @@ include "conf.php";
 if($argv[1])$debug = 1;
 
 $flag_file = __DIR__."/minter-insurance-reward-calc-flag.txt";
-$a = file_get_contents($f);
+$a = file_get_contents($flag_file);
 
 if($a || $debug)
 {
